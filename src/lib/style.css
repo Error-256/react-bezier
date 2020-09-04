@@ -1,0 +1,17 @@
+.bezier-line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 300px;
+  overflow: visible;
+  pointer-events: none;
+  overflow: visible !important;
+}
+
+path,
+polyline {
+  stroke-width: 1.5px;
+  fill: none;
+  stroke: #999;
+}

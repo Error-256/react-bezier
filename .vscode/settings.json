@@ -1,0 +1,22 @@
+{
+  "terminal.integrated.shell.windows": "C:\\windows\\System32\\cmd.exe",
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "editor.tabSize": 2,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.enabled": false,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "workbench.editorAssociations": [],
+  "workbench.editor.highlightModifiedTabs": true,
+  "explorer.sortOrder": "type",
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
+}

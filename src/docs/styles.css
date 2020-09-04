@@ -1,0 +1,67 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.blue-line {
+  stroke-width: 2px;
+  fill: none;
+  stroke: rgb(0, 119, 187);
+}
+
+.blue-line.dash {
+  stroke-dasharray: 4;
+}
+
+.red-line {
+  stroke-width: 2px;
+  fill: none;
+  stroke: #c0392b;
+}
+
+.red-line.dash {
+  stroke-dasharray: 4;
+}
+
+.green-line {
+  stroke-width: 2px;
+  fill: none;
+  stroke: #8cda56;
+}
+
+.green-line.dash {
+  stroke-dasharray: 4;
+}
+
+.cube-1 {
+  width: 200px;
+  height: 200px;
+  background: rgba(217, 9, 217, 0.56);
+  position: absolute;
+  left: 352px;
+  top: 32px;
+}
+
+.cube-2 {
+  width: 150px;
+  height: 150px;
+  background: rgba(82, 196, 26, 0.45);
+  position: absolute;
+  left: 657px;
+  top: 57px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: rgba(45, 101, 223, 0.8);
+  position: absolute;
+  border-radius: 50%;
+}
+
+#app {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
