@@ -1,6 +1,6 @@
 {
   "name": "react-bezier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small and simple library for ReactJs for plotting bezier curves",
   "main": "lib/index.js",
   "scripts": {

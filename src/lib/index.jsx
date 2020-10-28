@@ -296,6 +296,14 @@ export const ReactBezier = ({ settings, children, arrow = true }) => {
         for (const v of data) {
           if (settingsGroup[v.target.id]) {
             settingsGroup[v.target.id].forEach(setList.add, setList);
+          } else {
+            const matchAll = v.target.innerHTML.matchAll(/id=['"`]{1}(.+?)['"`]{1}/g);
+            const ids = Array.from(matchAll).map(val => val[1])
+            for (const id of ids) {
+              if (settingsGroup[id]) {
+                settingsGroup[id].forEach(setList.add, setList);
+              }
+            }
           }
         }
         const settings = Array.from(setList);
